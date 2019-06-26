@@ -82,44 +82,46 @@ body{
 }
 
 .main-section{
-    height: 600px;
+    height: 500px;
     width: 100%;
     position:relative;
-
+    margin-left: 32%;
+    margin-top: 
+    text-align: center;
 }
 
 .col{
     height: 500px;
-    width:45%;
-    float: left;
-    margin-left:12px;
-    border: 3px solid black;
+    width:32%;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    border: 3px black;
     position: relative;
-}
-
-.col1{
-    height: 500px;
-    width:10opx;
-    float: left;
-    margin-left:;
-    border: 3px solid black;
-    position: relative;
-}
-
-.main-text{
-    margin-top: 50px;
     text-align: center;
-    }
-
-.main-img{
-    height:100px;
-    width: 100px;
-    display: block;
-    margin-left: 300px;
-    margin-right: auto;
-    /* width: 50%; */
 }
 
+.spoiler{
+    height: 300px;
+    margin-left: auto;
+}
+
+h2{
+    color: #2B2B2A;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+h3{
+    color: #2B2B2A;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;  
+}
+
+p1{
+    color: #2B2B2A;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
 
 .footer{
     height:60px;
@@ -158,7 +160,7 @@ body{
 .about-text{
     height: 100px;
     width: 300px;
-    color: #E51B4C;
+    color: #2B2B2A;
     position: absolute;
     display: block;
     top: 69px;
@@ -170,7 +172,7 @@ body{
     white-space: nowrap;
 }
 .col-container{
-    height:800px;
+    height:650px;
     width: 100%;
     margin-top: 170px;
     margin-bottom: 20px;
@@ -193,9 +195,21 @@ body{
     margin: auto;
 }
 
+p2{
+    text-decoration: none;
+}
+
 .audio-col{
     display: block;
-    margin: auto;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.audio{
+    display: block;
+    margin-top: 125px;
+    text-align: center;
 }
 
 .col-video{
@@ -209,29 +223,43 @@ body{
 /*******Contact Styles*********/
 
 .contact-header{
-    background-color: #2B2B2A;
+    height: 100px;
+    width: 200px;
+    color: #2B2B2A;
+    /* position: absolute; */
+    margin-top: 80px;
+    margin-left: 39%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    text-transform: none;
+    white-space: nowrap;
+    /* background-color: #2B2B2A;
     height: 100px;
     width: 200px;
     color: #FFFFFF;
     /* position: absolute; */
     /* top: 60px; */
-    margin: auto;
+    /* margin: auto;
     margin-top: 70px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: lightslategrey 2px 2px;
     box-shadow: lightslategrey 2px 2px;
-    border-radius: 5px;
+    border-radius: 5px; */ */
 }
 
 .container{
-    height: 550px;
+    height: 800px;
     width: 100%;
-    margin-top: 250px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: auto;
 }
 
 .contact-col{
     float: left;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: auto;
    
 }
